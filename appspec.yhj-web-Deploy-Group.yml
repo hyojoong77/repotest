@@ -12,6 +12,7 @@ hooks:
     - location: scripts/configure_permissions.sh
       timeout: 300
       runas: root
+      overwrite: true
   ApplicationStart:
     - location: scripts/start_server.sh
       timeout: 300
